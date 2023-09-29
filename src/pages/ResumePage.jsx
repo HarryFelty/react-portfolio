@@ -19,7 +19,7 @@ export default function ResumePage() {
                         <li>Microsoft Endpoint Manager</li>
                     </ul>
                     <br />
-                    <h3>Certificates:</h3>
+                    <h3 className="certHeader">Certificates:</h3>
                     <ul>
                         <li>CompTIA Security+ (2022-2025)</li>
                     </ul>

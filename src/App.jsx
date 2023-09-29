@@ -1,6 +1,9 @@
 // Todo: Bring in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+
 
 const styles = {
   header: {
@@ -31,7 +34,15 @@ function App() {
       </main>
 
       <footer>
-        <p></p>
+        <a href="https://github.com/HarryFelty">
+          <FontAwesomeIcon icon={faGithub} size="4x" />
+        </a>
+        <a href="https://www.linkedin.com/in/harry-felty-414683234">
+          <FontAwesomeIcon icon={faLinkedin} size="4x" />
+        </a>
+        <a href="https://stackoverflow.com/users/22654771/harry-felty">
+          <FontAwesomeIcon icon={faStackOverflow} size="4x" />
+        </a>
       </footer>
     </>
   );

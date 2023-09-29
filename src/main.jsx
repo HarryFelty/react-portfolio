@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
@@ -10,8 +11,6 @@ import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
-
-
 
 const router = createBrowserRouter([
   {
@@ -37,7 +36,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-  // Todo: Define the accessible routes, and which components respond to which URL
 ]);
 
 // Render the RouterProvider component

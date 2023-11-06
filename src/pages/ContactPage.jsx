@@ -1,6 +1,6 @@
 const styles = {
     bottomMargin: {
-        marginBottom: "17%"
+        marginBottom: "27%"
     },
 }
 

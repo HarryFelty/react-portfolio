@@ -3,7 +3,6 @@ const styles = {
     fontSize: '24px',
     marginTop: '80px'
   },
-
 }
 
 import { Link, useLocation } from 'react-router-dom';

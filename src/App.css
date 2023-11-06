@@ -84,9 +84,19 @@ footer {
     padding-right: 2%;
 }
 
+.centerContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% viewport height */
+    margin: 0;
+}
+
 .contactContainer {
     display: flex;
     justify-content: center;
+
 }
 
 .contactDiv {

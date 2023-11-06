@@ -1,4 +1,3 @@
-// Todo: Bring in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,8 +15,8 @@ const styles = {
     fontSize: "60pt",
     padding: '15px',
   },
-  main: {
-
+  footer: {
+    padding: '2%'
   }
 }
 
@@ -33,7 +32,7 @@ function App() {
         <Outlet />
       </main>
 
-      <footer>
+      <footer style={styles.footer}>
         <a href="https://github.com/HarryFelty">
           <FontAwesomeIcon icon={faGithub} size="4x" />
         </a>

@@ -1,7 +1,11 @@
-
+const styles = {
+    bottomMargin: {
+        marginBottom: "17%"
+    },
+}
 export default function AboutPage() {
     return <>
-        <div>
+        <div style={styles.bottomMargin}>
             <h2>About Me</h2>
             <div className="aboutContainer">
                 <div class="aboutDiv">

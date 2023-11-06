@@ -26,6 +26,17 @@ ul {
 
 button {
     margin-top: 10px;
+    font-size: 150%;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(79, 82, 104);
+    color: rgb(0, 133, 177);
+    box-shadow: -0.3em 0.5em 1em -0.3em #ffffff;
 }
 
 footer {
@@ -71,4 +82,20 @@ footer {
 .certHeader {
     display: inline;
     padding-right: 2%;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contactDiv {
+    display: flex;
+    margin: auto;
+    font-size: 18pt;
+    background-color: rgb(211, 211, 211);
+    width: 80%;
+    border-radius: 20px;
+    padding: 2%;
+    justify-content: center;
 }

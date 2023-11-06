@@ -1,7 +1,25 @@
+const styles = {
+    bottomMargin: {
+        marginBottom: "3%",
+    },
+    h2Margin: {
+        marginBottom: '30px'
+    }
+}
+
+const downloadFile = () => {
+    // Create a link to the document file
+    const link = document.createElement('a');
+    link.href = '../src/docs/Harry Felty Resume - Copy.docx';
+    link.download = 'HarryFeltyResume.docx';
+
+    link.click();
+};
+
 export default function ResumePage() {
     return <>
-        <div>
-            <h2>My Resume</h2>
+        <div style={styles.bottomMargin}>
+            <h2 style={styles.h2Margin}>My Resume</h2>
             <div className="skills">
                 <div>
                     <h3>Skills:</h3>
@@ -73,6 +91,7 @@ export default function ResumePage() {
                     </ul>
                 </div>
             </div>
+            <button onClick={downloadFile}>Download Full Resume</button>
         </div>
     </>
 }

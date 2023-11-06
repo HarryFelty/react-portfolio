@@ -9,7 +9,7 @@ const styles = {
 
 const downloadFile = () => {
     const link = document.createElement('a');
-    link.href = './src/docs/Harry Felty Resume - Copy.docx';
+    link.href = '../../docs/Harry Felty Resume - Copy.docx';
     link.download = 'HarryFeltyResume.docx';
 
     link.click();
